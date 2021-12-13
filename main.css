@@ -45,6 +45,512 @@ ul > li {
   list-style: none;
 }
 
+.herotwo {
+  background: url("./img/bg/hero.jpg") center center / cover no-repeat;
+  overflow: hidden;
+  margin-bottom: 90px;
+}
+
+.decor{
+  margin-top: 60px
+}
+
+.headertwo {
+  width: 1290px;
+  height: 180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.decor__text{
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(390px);
+}
+
+.lined-textdecor{
+  font-family: "alegreya", Arial, sans-serif;
+  color: #fff;
+  font-size: 35px;
+  text-transform: uppercase;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.futbolka-container{
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.osnova{
+  display: flex;
+  background: #ffc92f;
+  margin-bottom: 96px;
+  justify-content: center;
+  padding: 11px;
+  min-width: 1100px;
+  flex: 1;
+}
+
+.futbol{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.futbolki__item {
+  display: none;
+}
+
+.futbolki__item--show{
+  display: block;
+}
+
+.opisanye{
+background: #fcf5e6;
+min-width: 555px;
+}
+
+
+.opisanye__hurley{
+  font-family: var(--titlesfont);
+  color: var(--yellow);
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 11px;
+  padding-top: 29px;
+  padding-left: 29px;
+
+}
+
+.opisanye__rick{
+  font-family: var(--titlesfont);
+  font-size: 35px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 17px;
+  padding-left: 29px;
+}
+
+
+
+.futbolka__price {
+  width: 96px;
+  border-bottom: 45px solid #ffc92f;
+  position: relative;
+  left: 29px;
+  margin-bottom: 31px;
+}
+
+
+
+.futbolka__price-amount {
+  margin-top: 0;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: var(--titlesfont);
+  color: #212121;
+  position: absolute;
+  top: 11px;
+  left: 24px;
+}
+
+hr{
+  margin-bottom: 34px;
+  margin-top: 34px;
+}
+
+.opisanye_profile{
+  font-family: "Roboto", Arial, sans-serif;
+  padding-left: 29px;
+  font-size: 13px;
+  line-height: 21px;
+  
+}
+
+.razmer{
+  display: flex;
+  padding-left: 29px;
+  margin-bottom: 23px;
+}
+
+.razmer__ramer{
+  padding-right: 8px;
+}
+
+.razmer__ramer--inactive{
+  pointer-events: none;
+  
+}
+
+.sizefutbolka_empty{
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 15px;
+  color: #e0d9c8;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid #e0d9c8;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sizefutbolka {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid #e0d9c8;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.razmer__ramer--active .sizefutbolka{
+  border-color: var(--yellow);
+  background:var(--yellow);
+}
+
+.dots {
+  display: flex;
+  padding-left: 29px;
+}
+
+.dots__item {
+  margin-right: 20px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.dots__item--active {
+  border-radius: 20px;
+  border: 3px solid var(--yellow);
+}
+
+.dot-one {
+  height: 25px;
+  width: 25px;
+  background-color: #2f2c25;
+  border-radius: 50%;
+  
+}
+
+.dot-two {
+  height: 24px;
+  width: 24px;
+  background-color: #fcf5e6;
+  border: 1px solid gray;
+  border-radius: 50%;
+  
+}
+
+.dot-three {
+  height: 25px;
+  width: 25px;
+  background-color: #529029;
+  border-radius: 50%;
+  
+}
+
+.dot-four {
+  height: 25px;
+  width: 25px;
+  background-color: #39498d;
+  border-radius: 50%;
+  
+}
+
+.dot-five {
+  height: 25px;
+  width: 25px;
+  background-color: #d82727;
+  border-radius: 50%;
+  
+}
+
+.opisnaye__link{
+  padding-left: 29px;
+}
+
+.btn__opysanye {
+  text-transform: uppercase;
+  font-family: var(--titlesfont);
+  font-size: 28px;
+  padding: 15px 69px;
+  background: var(--black);
+  color: var(--yellow);
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 29px;
+  margin-bottom: 26px;
+}
+
+.btn__opysanye:hover {
+  background: var(--red);
+  color: #fff;
+}
+
+.futbolka__filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.futbolka__link {
+  font-family: var(--titlesfont);
+  text-transform: uppercase;
+  padding: 9px 19px;
+  color: var(--black);
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.futbolka__link:hover {
+  color: var(--red);
+}
+
+.filter__item--active .futbolka__link {
+  color: var(--yellow);
+  background: #1b1b1b;
+}
+
+.futbolka__information{
+  margin-bottom: 82px;
+}
+
+
+.information__general {
+  display: none;
+}
+
+.information__general--show {
+  display: block;
+}
+
+.information__general{
+  background:var(--yellow);
+  padding: 11px;
+  width: 100%;
+}
+
+.inf__gen{
+  background:#fcf5e6;
+  
+
+}
+
+.inf__gener{
+  display: flex;
+  
+}
+
+.washing{
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.wash{
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  line-height: 19px;
+  
+}
+
+.washing__item{
+  display: flex;
+  align-items: center;
+}
+
+.washing__icon{
+  width: 25px;
+  height: 25px;
+  padding-right: 25px;
+  
+}
+
+.left__inf{
+  border-right: 3px solid #e5dece;
+  min-width: 338px;
+  padding: 47px 41px 47px 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.right__inf{
+  display: flex;
+  padding: 47px;
+}
+
+.priatnayatkan{
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 13px;
+}
+
+.left__tab{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 336px;
+  height: 434px;
+  padding: 45px 0 50px 0;
+}
+
+
+
+.razmer_futbolki{
+  margin-bottom: 53px;
+  height: 227px;
+  width: 207px;
+}
+
+.opsanye__razmerov{
+  display: flex;
+  
+}
+
+.cifra{
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 12px;
+  padding-right: 13px;
+}
+
+.opsanye__razmera{
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 12px;
+  
+}
+
+.muzzgen{
+  display: flex;
+  justify-content: center;
+  background: #f6efe0;
+}
+
+.nazv{
+  width: 73px;
+  height: 60px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 2px solid #e0d9c8;
+  border-left: 2px solid #e0d9c8; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nazva{
+width: 158px;
+height: 60px;
+padding-left: 17px;
+font-family: "Roboto", Arial, sans-serif;
+font-size: 14px;
+font-weight: bold;
+border-bottom: 2px solid #e0d9c8;
+border-left: 2px solid #e0d9c8;
+display: flex;
+align-items: center;
+}
+
+.others__gl{
+width: 158px;
+height: 60px;
+padding-left: 17px;
+font-family: "Roboto", Arial, sans-serif;
+font-size: 14px;
+border-bottom: 2px solid #e0d9c8;
+border-left: 2px solid #e0d9c8;
+display: flex;
+align-items: center;
+}
+
+.drugoe{
+  display: flex;
+  justify-content: center;
+}
+
+.others{
+  width: 73px;
+  height: 60px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 14px;
+  border-bottom: 2px solid #e0d9c8;
+  border-left: 2px solid #e0d9c8; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left__conditions{
+display: flex;
+justify-content: center;
+align-items: center;
+min-width: 338px;
+min-height: 241px;
+}
+
+.planet__express{
+  width: 170px;
+  height: 153px;
+}
+
+
+.right__conditions{
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 14px;
+  padding: 48px 0 0 48px;
+  border-left: 3px solid #e0d9c8; 
+}
+
+.left__brend{
+display: flex;
+justify-content: center;
+align-items: center;
+min-width: 338px;
+min-height: 241px;
+}
+
+.right__brend{
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 14px;
+  padding: 48px 0 0 48px;
+  border-left: 3px solid #e0d9c8; 
+}
+
+.harley{
+  width: 228px;
+  height: 55px;
+}
+
 .hero {
   height: 100vh;
   min-height: 650px;
@@ -182,6 +688,7 @@ ul > li {
 .fade-slider {
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
 .fade-slider__item {
@@ -229,15 +736,13 @@ ul > li {
 
 .fade-slider__item--style-presents .fade-slider__text {
   left: 0;
-  bottom: 0;
+  bottom: 100%;
   transform: translateY(-120%);
 }
 .fade-slider__item--style-presents .lined-text {
   align-items: center;
 }
-.fade-slider__text {
-  position: absolute;
-}
+
 
 .fade-slider__text {
   position: absolute;
@@ -261,6 +766,7 @@ ul > li {
   background: #000;
   padding: 0px 17px 8px;
   margin-top: -7px;
+  white-space: nowrap;
 }
 
 .lined-text__word--color-yellow {
